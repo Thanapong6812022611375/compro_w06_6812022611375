@@ -9,7 +9,7 @@ int main() {
     printf("4: %d\n", x != y);
     printf("5: %d\n", !(x >= y) || (5 != (5 / 3)));
     printf("6: %d\n", !(x < y));
-    printf("7: %d\n", ((x + y) * (z * 2)) != 0);
+    printf("7: %d\n", ((x + y) * (z * 2)) == 0);
     printf("8: %d\n", ((x % 2) == 0) || ((y % 2) == 1));
     printf("9: %d\n", (x > y) && (z < y));
 
